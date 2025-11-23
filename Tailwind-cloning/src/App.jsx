@@ -1,5 +1,8 @@
 
 
+import Header from './Header'
+import HeroSection from './HeroSection'
+import Logobar from './Logobar'
 import Navbar from './Navbar'
 
 function App() {
@@ -7,7 +10,13 @@ function App() {
 
   return (
 
-  <Navbar />
+    <div >
+       <Navbar />
+       <Logobar/>
+       <Header/>
+       <HeroSection/>
+    </div>
+  
 
   )
 }
